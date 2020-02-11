@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: react_dev
+  pool: 5  
+  username: ******
+  password: ******
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: react_test
+  pool: 5
+  username: ******
+  password: ******
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: react_production
+  pool: 5
+  username: postgres
+  password: postgres
